@@ -12,7 +12,6 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var cors = require("cors");
-// var getAllDataWebRouters = require("./src/routes/getEventWeb");
 var app = express();
 app.use(cors({
     origin: "*",
