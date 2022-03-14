@@ -2,12 +2,13 @@
   "name": "dashboardapi",
   "version": "0.0.0",
   "private": true,
+  "main": "./public/index.js",
   "scripts": {
     "start": "nodemon ./bin/www",
-    "dev": "ts-node-dev --respawn --pretty server.ts",
+    "dev": "ts-node-dev --respawn --pretty index.ts",
     "process": "ts-node-dev --respawn --pretty process.ts",
     "build": "rm -rf public && tsc ",
-    "prod": "node ./public/server.js"
+    "prod": "node ./public/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",

@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../server.ts');
+var app = require('../index.ts');
 var debug = require('debug')('dashboardapi:server');
 var http = require('http');
 
