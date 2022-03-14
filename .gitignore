@@ -1,0 +1,11 @@
+node_modules/
+data/delta-spark-317803-41323df03b22.json
+data/whale-bf846-dcd85747e186.json
+data/gummy-ae0d3-88fe41ebbbc4.json
+data/sunfly-123-769222049325.json
+.env
+public/
+process.env
+yarn.lock
+package-lock.json
+.DS_Store
