@@ -32,9 +32,7 @@ const settingSchema = new Schema<Setting>({
             type: String,
             ref: userTable
         },
-        colorSchemes: {
-            type: Array<String>
-        }
+        colorSchemes: [String]
     },
     { versionKey: false }
 );
